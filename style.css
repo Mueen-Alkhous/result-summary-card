@@ -1,0 +1,17 @@
+@font-face {
+    font-family: Hanken Grotesk;
+    src: url(assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
+
+* {
+    font-family: Hanken Grotesk, "san-serif";
+    font-weight: 900;
+}
+
+h2 {
+    transition: 0.5s;
+}
+
+h2:hover {
+    font-weight: 100;
+}
