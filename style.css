@@ -152,3 +152,48 @@ button {
     background-color: hsl(224, 30%, 27%);
     font-weight: 700;
 }
+
+button:hover {
+    background-color: hsla(256, 72%, 46%, 1);
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .container-card {
+        width: 300px;
+        height: 100vh;
+        flex-direction: column;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    .result-card,
+    .summary-card {
+        width: 100%;
+    }
+
+    .result-card {
+
+        height: 50vh;
+        border-radius: 0% 0 30px 30px;
+        padding: 10px 20px;
+    }
+
+    .result-card .score-circle {
+        width: 125px;
+        height: 125px;
+        margin: 15px auto;
+    }
+
+    .result-card p:last-child {
+        width: 100%;
+    }
+
+
+
+
+
+
+}
